@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringCrudRest:war">
+    <output-path>$PROJECT_DIR$/SpringCrudRest/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SpringCrudRest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SpringCrudRest.war">
+      <element id="artifact" artifact-name="SpringCrudRest:war exploded" />
+    </root>
+  </artifact>
+</component>

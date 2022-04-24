@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--<context:component-scan base-package="org.example.springCourse"/>
+
+    <context:property-placeholder location="classpath:musicBean.properties"/>-->
+
+    <!--<bean id="rapMusicBean"
+          class="org.example.springCourse.RapMusic">
+        <property name="duration" value="${rapMusicBean.duration}"/>
+    </bean>
+
+    <bean id="rockMusicBean"
+          class="org.example.springCourse.RockMusic">
+        <property name="duration" value="${rockMusicBean.duration}"/>
+    </bean>
+
+    <bean id="classicalMusicBean"
+          class="org.example.springCourse.ClassicalMusic"
+          scope="prototype"
+          init-method="doMyInit"
+          destroy-method="doMyDestroy">
+        <property name="duration" value="${classicalMusicBean.duration}"/>
+    </bean>
+
+    <bean id="musicPlayer"
+          class="org.example.springCourse.MusicPlayer">
+        <constructor-arg>
+            <list>
+                <ref bean="rapMusicBean"/>
+                <ref bean="classicalMusicBean"/>
+                <ref bean="rockMusicBean"/>
+                <ref bean="classicalMusicBean"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="musicPlayerDependencyViaConstructor"
+          class="org.example.springCourse.MusicPlayerDependencyViaConstructor">
+        <constructor-arg ref="rapMusicBean"/>
+    </bean>
+
+    <bean id="musicPlayerDependencyViaSetter"
+          class="org.example.springCourse.MusicPlayerDependencyViaSetter">
+        <property name="music" ref="rapMusicBean"/>
+    </bean>-->
+
+</beans>
